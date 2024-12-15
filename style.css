@@ -1,0 +1,174 @@
+#splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #007bff, #6610f2);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+#splash-screen h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#splash-screen p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#splash-screen img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.splash-links a {
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.splash-links a:hover {
+    color: #d4edfc;
+    text-decoration: underline;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Contact Form */
+form label {
+    font-weight: bold;
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.skills-hobbies-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-hobbies-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills,
+.hobbies {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul,
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li,
+.hobbies li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.skills img,
+.hobbies img {
+    max-width: 40px;
+    margin-right: 15px;
+}
+
+.section-divider {
+    height: 2px;
+    background-color: #6c757d;
+    margin: 20px 0;
+}
+
+.professional-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.professional-image img {
+    max-width: 150px;
+}
+
+.linkedin-link a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.linkedin-link a:hover {
+    color: #d4edfc;
+}
